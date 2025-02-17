@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "Digital_Market",
   "version": "1.0.0",
   "description": "A simple package made for downloading the source code from your Vercel Deployment.",
@@ -67,4 +68,44 @@
     "@ai-sdk/react": "^1.1.16"
   }
 >>>>>>> 1982abe (Initial commit)
+=======
+  "name": "Digital_Market",
+  "version": "1.0.0",
+  "description": "A simple package made for downloading the source code from your Vercel Deployment.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "npm run build && node dist/index.js",
+    "build": "babel src --out-dir dist"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "express": "^4.21.2",
+    "fs-extra": "^11.1.1",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.5.2",
+    "inquirer-autocomplete-prompt": "^1.0.2",
+    "mkdirp": "^1.0.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalinaCristian/source-from-vercel-deployment.git"
+  },
+  "author": "Cristian Calina",
+  "license": "MIT",
+  "keywords": [
+    "vercel",
+    "deployment",
+    "download",
+    "next",
+    "vercel-deployment"
+  ]
+>>>>>>> 4804221 (Fix deployment issue)
 }

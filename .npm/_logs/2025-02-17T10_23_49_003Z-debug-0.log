@@ -1,0 +1,32 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.6.1
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm run dev
+7 verbose argv "run" "dev"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-02-17T10_23_49_003Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-02-17T10_23_49_003Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 verbose stack JSONParseError: Invalid package.json: JSONParseError: Unexpected non-whitespace character after JSON at position 2001 (line 64 column 1) while parsing near "...eployment#readme\"\n}\n{\n  \"dependencies\": ..."
+12 verbose stack     at parse (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:19:21)
+12 verbose stack     at PackageJson.fromJSON (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:162:22)
+12 verbose stack     at PackageJson.load (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:157:17)
+12 verbose stack     at async PackageJson.normalize (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:117:5)
+12 verbose stack     at async #run (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/run-script.js:86:13)
+12 verbose stack     at async RunScript.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/run-script.js:40:7)
+12 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:207:9)
+12 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+13 error code EJSONPARSE
+14 error JSON.parse Invalid package.json: JSONParseError: Unexpected non-whitespace character after JSON at position 2001 (line 64 column 1) while parsing near "...eployment#readme\"\n}\n{\n  \"dependencies\": ..."
+15 error JSON.parse Failed to parse JSON data.
+15 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+16 verbose cwd /data/data/com.termux/files/home
+17 verbose os Linux 5.15.149-android13-8-o-g0c825e5539f2
+18 verbose node v23.6.1
+19 verbose npm  v10.9.2
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-02-17T10_23_49_003Z-debug-0.log
