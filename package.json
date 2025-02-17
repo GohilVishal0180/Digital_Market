@@ -8,6 +8,7 @@
     "express": "^4.17.1"
   }
 }
+}
 {
   "name": "source-from-vercel-deployment",
   "version": "4.1.0",
