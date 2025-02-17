@@ -1,4 +1,14 @@
 {
+  "name": "Digital_Market",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+{
   "name": "source-from-vercel-deployment",
   "version": "4.1.0",
   "description": "A simple package made for downloading the source code from your Vercel Deployment.",
