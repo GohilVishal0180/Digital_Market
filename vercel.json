@@ -2,15 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "digitalapp/wsgi.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb" }
+      "src": "manage.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "digitalapp/wsgi.py"
+      "dest": "manage.py"
     }
   ]
 }
